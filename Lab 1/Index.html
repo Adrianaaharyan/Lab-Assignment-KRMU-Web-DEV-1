@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <u><i>Adriana Aharyan</i></u>
+      </h1>
+      <nav>
+        <ul type="square">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <hr />
+        <h2>Welcome to My Portfolio :</h2>
+        <p>
+          Hello! I am a web development student and this is my personal
+          portfolio webpage.
+        </p>
+      </section>
+
+      <section id="about">
+        <h2>About Me :</h2>
+        <img
+          width="115"
+          height="125"
+          src="/Photo.jpeg.jpg"
+          alt="Profile Picture"
+        />
+        <p>
+          Hello, my name is Adriana and welcome to my beginner's HTML portfolio.
+          As a coding student, I am focused on building clean and simple web
+          projects using the fundamentals of HTML. This site represents my
+          initial steps and passion for web development.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Some of my Projects :</h2>
+        <ul>
+          <li>
+            <article>
+              <h3>Portfolio Website :</h3>
+              <p>
+                A personal one-page website to showcase your bio, skills, and
+                contact details.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>CSS Styling :</h3>
+              <p>
+                Made a simple HTML webpage into a stylish webpage using CSS.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>Semantic Blog Layout :</h3>
+              <p>
+                A simple blog layout with using appropriate semantic HTML 5
+                tags.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>User Form :</h3>
+              <p>
+                A form webpage with fields like name, email, and message for
+                practicing form handling.
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>My Technical Skills till now :</h2>
+        <table border="10" cellpadding="4" cellspacing="4" width="210">
+          <thead>
+            <tr>
+              <th>Skills</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>intermediate</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Newbie</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>intermediate</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contact">
+        <h2>If you want to contact me :</h2>
+        <form>
+          <label for="username">Name : </label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Username"
+            required
+            maxlength="15"
+            minlength="3"
+            title="NAME"
+          />
+          <br />
+          <br />
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            name=""
+            id="eamil"
+            placeholder="Gmail"
+            required
+            title="EMAIL"
+          />
+          <br />
+          <br />
+          <label for="Mobile">Mobile :</label>
+          <input
+            type="tel"
+            name=""
+            id="Mobile"
+            required
+            title="MOBILE NUMBER"
+            placeholder="Mobile Number"
+            pattern="\d{10}"
+          />
+          <br />
+          <br />
+          <label>Gender :</label>
+          <label> <input type="radio" name="Gender" />Male </label>
+          <label> <input type="radio" name="Gender" />Female </label>
+          <label> <input type="radio" name="Gender" />Others </label>
+          <br />
+          <br />
+          <textarea
+            name=""
+            id=""
+            rows="6"
+            cols="30"
+            placeholder="Enter your message"
+          ></textarea>
+          <br />
+          <br />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <br />
+    <hr />
+    <footer align="center">
+      <p><b>&copy;2025 &emsp; Adriana Aharyan-KRMU .</b></p>
+    </footer>
+  </body>
+</html>
