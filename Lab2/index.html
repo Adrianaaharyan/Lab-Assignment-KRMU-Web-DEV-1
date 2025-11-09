@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Hello, this is my Portfolio!</h1>
+        <hr />
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="Photo.jpeg.jpg" alt="Photo of Adriana Aharyan" />
+        <p>
+          Hello, my name is <strong>Adriana Aharyan</strong>. I am learning web
+          development 🤖. This portfolio is a reflection of my creativity,
+          technical growth, and passion for web development 💻. Built with HTML
+          and CSS, it showcases my ability to design clean, responsive, and
+          visually appealing layouts. Every section has been thoughtfully
+          structured to highlight not only my skills but also my journey from
+          learning the basics of front-end design to crafting polished,
+          interactive web experiences ✨.
+        </p>
+        <hr />
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Learning</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr />
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects">
+        <h2>My Projects</h2>
+
+        <article>
+          <h3>Portfolio Using Only HTML</h3>
+          <p>
+            The portfolio was a single-purpose site built entirely with HTML (no
+            CSS or JavaScript). It uses semantic structure (header, nav, main,
+            section, article, footer) to present my bio, project summaries, and
+            contact details in a minimal, fast, and accessible way.
+          </p>
+        </article>
+
+        <article>
+          <h3>Calorie Tracker Using Python</h3>
+          <p>
+            Many students want a quick and simple way to monitor their daily
+            calorie intake. This mini project helps them build a Python-based
+            CLI tool where they can log meals, track calories, and compare their
+            intake against personal limits.
+          </p>
+        </article>
+        <hr />
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <h2>Contact Me!</h2>
+        <form>
+          <table>
+            <tr>
+              <td><label for="name">Your Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Your Email:</label></td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="tel">Your Phone No:</label></td>
+              <td>
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="msg">Message:</label></td>
+              <td>
+                <textarea
+                  name="msg"
+                  id="msg"
+                  cols="40"
+                  rows="4"
+                  placeholder="Enter your message"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center">
+                <input type="submit" value="Submit" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </section>
+
+      <!-- Back to Top Link -->
+      <a href="#" id="topBtn">↑</a>
+    </main>
+  </body>
+</html>

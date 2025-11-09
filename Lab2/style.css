@@ -1,0 +1,182 @@
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(244, 224, 226);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* header and navigation styling */
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(232, 70, 124);
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+header nav ul {
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 2vh 2vw;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #e891c7;
+}
+
+/* image styling */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* section styling */
+section {
+  margin: 60px auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #000;
+  width: 60%;
+  margin: 20px auto;
+}
+
+/* table styling */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 50%;
+  max-width: 500px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: rgb(226, 80, 129);
+  color: white;
+  padding: 12px 15px;
+}
+
+td {
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* projects styling*/
+h3 {
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  margin: 2vh 1vw;
+}
+
+article {
+  font-family: "Noto Sans", sans-serif;
+  margin: 1vh 2vw;
+}
+
+article:hover {
+  border: 6px solid rgb(219, 34, 96);
+  padding: 2vh 2vw;
+  background-color: rgb(241, 209, 214);
+  cursor: pointer;
+}
+
+/* contact styling */
+#contact {
+  text-align: center;
+}
+
+#contact table {
+  border: 10px solid rgb(217, 68, 118);
+  margin: 5vh auto;
+}
+
+#contact td {
+  border: 3px solid rgb(217, 68, 118);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+}
+
+#contact td > input,
+#contact textarea {
+  font-size: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(220, 232, 245);
+  padding: 6px;
+  border: none;
+}
+
+#contact td > input[type="submit"] {
+  background-color: rgb(243, 230, 108);
+  color: rgb(11, 1, 1);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* back to top link */
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f45380;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
+}
+
+#topBtn:hover {
+  background-color: #e699ca;
+}
