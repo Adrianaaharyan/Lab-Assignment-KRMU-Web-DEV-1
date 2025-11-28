@@ -4,43 +4,43 @@ This project is a responsive and visually appealing front-end website for a fict
 
 # Sections Implemented
 1. Navbar
-Sticky navigation bar with logo
+-Sticky navigation bar with logo
 Anchor navigation links
 Login & Sign Up buttons
 2. Hero Section
-Headline, description & call-to-action buttons
+-Headline, description & call-to-action buttons
 Feature stats
 High-quality hero image
 3. Search Bar
-Location input
+-Location input
 Category dropdown
 Search input
 Rounded, responsive bar
 4. Category Section
-Six food categories displayed in a responsive grid
+-Six food categories displayed in a responsive grid
 Image cards with hover effects
 5. Featured Restaurants
-Responsive card grid
+-Responsive card grid
 Restaurant image, description, ratings, delivery time, and price level
 6. Offers Section
-Promotional offer cards
+-Promotional offer cards
 Highlighted tags (50% OFF, Cashback, Free Delivery)
 7. Testimonials
-Customer reviews with user images, star ratings, and quotes
+-Customer reviews with user images, star ratings, and quotes
 8. App Download Section
-App promotion content
+-App promotion content
 Download buttons
 Smartphone preview image
 9.Footer
-Four-column layout
+-Four-column layout
 Company info, support, navigation & social links
 Copyright
 Breakpoints Used & Main Layout Techniques
 
 # Breakpoints
-900px	- Hero & App section switch to vertical layout
-768px	- Navigation links hidden, search bar becomes stacked
-480px	- Reduced text size & vertical CTA buttons
+1. 900px	- Hero & App section switch to vertical layout
+2. 768px	- Navigation links hidden, search bar becomes stacked
+3. 480px	- Reduced text size & vertical CTA buttons
 
 # Main Layout Techniques
 1. Flexbox → Navbar, hero layout, app section, buttons
