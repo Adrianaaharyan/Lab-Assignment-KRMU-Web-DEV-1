@@ -3,35 +3,35 @@ Foodie – Modern Food Delivery Service Website UI
 This project is a responsive and visually appealing front-end website for a fictional food delivery service called Foodie. It focuses on clean design, smooth layout structure, and mobile-friendly UI using HTML5 and CSS3.
 
 # Sections Implemented
-🔹 Navbar
+1. Navbar
 Sticky navigation bar with logo
 Anchor navigation links
 Login & Sign Up buttons
-🔹 Hero Section
+2. Hero Section
 Headline, description & call-to-action buttons
 Feature stats
 High-quality hero image
-🔹 Search Bar
+3. Search Bar
 Location input
 Category dropdown
 Search input
 Rounded, responsive bar
-🔹 Category Section
+4. Category Section
 Six food categories displayed in a responsive grid
 Image cards with hover effects
-🔹 Featured Restaurants
+5. Featured Restaurants
 Responsive card grid
 Restaurant image, description, ratings, delivery time, and price level
-🔹 Offers Section
+6. Offers Section
 Promotional offer cards
 Highlighted tags (50% OFF, Cashback, Free Delivery)
-🔹 Testimonials
+7. Testimonials
 Customer reviews with user images, star ratings, and quotes
-🔹 App Download Section
+8. App Download Section
 App promotion content
 Download buttons
 Smartphone preview image
-🔹 Footer
+9.Footer
 Four-column layout
 Company info, support, navigation & social links
 Copyright
@@ -43,14 +43,14 @@ Breakpoints Used & Main Layout Techniques
 480px	- Reduced text size & vertical CTA buttons
 
 # Main Layout Techniques
-Flexbox → Navbar, hero layout, app section, buttons
-CSS Grid → Categories, Restaurants, Testimonials, Footer
-Auto-responsive grids using:
-grid-template-columns: repeat(auto-fit, minmax(...))
-CSS Variables for colors, shadows, spacing
-Soft UI card design with shadows
-Sticky navbar
-Mobile-first media queries
+1. Flexbox → Navbar, hero layout, app section, buttons
+2. CSS Grid → Categories, Restaurants, Testimonials, Footer
+3. Auto-responsive grids using:
+4. grid-template-columns: repeat(auto-fit, minmax(...))
+5. CSS Variables for colors, shadows, spacing
+6. Soft UI card design with shadows
+7. Sticky navbar
+8. Mobile-first media queries
 
 # How to Open the Project (Local)
 ## VS Code + Live Server 
